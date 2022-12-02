@@ -4,7 +4,7 @@
 	{
 		Name = "Infected"
 		Description = "Basically an undead creature"
-		StartHealth = 35
+		StartHealth = 50
 		StartArmor = 0
 		Damage = 6.75
 		Speed = 15
@@ -14,8 +14,8 @@
 		{
 			MinXP = 7
 			MaxXP = 25
-			MinCash = 10
-			MaxCash = 30
+			MinCash = 15
+			MaxCash = 40
 		}
 		NPCType = "Standard"
 		OverrideMaterial = resource:"materials/npcs/zombie.vmat"

@@ -4,7 +4,7 @@
 	{
 		Name = "Magma Creature"
 		Description = "A very hot magma creature"
-		StartHealth = 90
+		StartHealth = 120
 		StartArmor = 0
 		Damage = 25
 		Speed = 17.5
@@ -12,6 +12,10 @@
 		IsABoss = false
 		KillReward = 
 		{
+			MinXP = 20
+			MaxXP = 40
+			MinCash = 15
+			MaxCash = 53
 		}
 		NPCType = "Standard"
 		OverrideMaterial = resource:"materials/npcs/magma.vmat"
